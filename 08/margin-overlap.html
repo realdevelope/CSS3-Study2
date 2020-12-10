@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+	<title>박스모델</title>
+	<style>
+    * {
+      box-sizing:border-box;
+    }
+
+		div {
+			width:200px;  /* 너비 */
+			height:100px;  /* 높이 */
+  		margin:30px;  /* 마진 */
+		}   /*세로로 배치할떄 맨위 , 맨아래 마진에 비해 마진들이 너무 커지는걸 방지하기위해 최종적으로 30px만큼만 만들어짐*/
+
+    #box1 {
+      background:rgb(0, 77, 243);
+    }
+
+    #box2 {
+      background:rgb(255, 72, 0);
+    }
+
+    #box3 {
+      background:rgb(18, 219, 0);
+    }
+
+	</style>
+</head>
+
+<body>
+	<div id="box1"></div>
+	<div id="box2"></div>
+	<div id="box3"></div>
+</body>
+
+</html>

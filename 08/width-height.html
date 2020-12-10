@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+	<title>박스모델</title>
+	<style>
+		.box1{
+			width:400px; /* 고정 너비 */
+			height:100px; /* 높이 */
+			background:#ff6a00; /* 배경색 */
+		}
+
+		.box2{
+			width:50%; /* 가변 너비 - 브라우저 창 너비의 50% */
+			height:100px; /* 높이 */
+			background:#0094ff; /* 배경색 */
+		}
+
+		div {
+			margin:10px; /* div 간의 여백 */
+		}
+
+/*box1 은 고정넓이라 브라우저 창의 크기에 따라 변하지 않고, box2는 가변넓이라 브라우저 창의 크기에 따라 변한다.*/
+	</style>
+</head>
+
+<body>
+	<div class="box1"></div>
+	<div class="box2"></div>
+</body>
+
+</html>
