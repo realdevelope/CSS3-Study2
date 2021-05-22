@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CSS3 Relearning
 - [DO IT HTML5+CSS3 웹표준의 정석 2020개정판2] css-master
 - 12월 한달 프론트앤드 기초부터 바로잡기 프로젝트
